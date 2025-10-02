@@ -1,0 +1,1501 @@
+.Body {
+    display: block;
+    max-width: auto;
+    margin: auto;
+    font-family: "Montserrat", "Open Sans", sans-serif;
+}
+.main {
+    display: flex;
+    justify-content: ;
+    max-width: 1440px;
+    margin: auto;
+}
+p {
+    margin: 0%;
+}
+h2 {
+    margin: 0;
+}
+.Header {
+    max-width: 1440px;
+    height: 76px;
+    margin: auto;
+    align-items: center;
+}
+.hrHeader {
+    margin: auto;
+}
+.MaterialsHud,
+.MaterialsHudMenu {
+    display: flex;
+}
+.ASideFontContent {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 234px;
+    gap: 8px;
+}
+.ASideFontColor {
+    font-weight: 700;
+    font-size: 18px;
+    color: #333333;
+}
+.ASideFontBr {
+    display: none;
+}
+.PresentImgThree {
+    display: none;
+}
+.PresentImgFour {
+    display: none;
+}
+.ASideFont {
+    font-weight: 700;
+    font-size: 18px;
+    color: #2963A3;
+}
+.HeaderContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 76px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.MaterialsHud {
+    display: flex;
+    justify-content: start;
+    margin-right: 164px;
+    gap: 30px;
+    padding: 0%;
+}
+.MaterialsHudMenuFour,
+.MaterialsHudMenuFive {
+    font-size: 14px;
+    gap: 8px;
+    list-style: none;
+    text-decoration: none;
+}
+.MaterialsHudMenuText {
+    list-style: none;
+    text-decoration: none;
+}
+.MaterialsHudMenuFive {
+    font-weight: 500;
+}
+.MaterialsHudMenuFour {
+    font-weight: 400;
+}
+button {
+    cursor: pointer;
+}
+.ButtonContactbutton,
+.ButtonContact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #E3F5F5;
+    color: #03B2A5;
+    border: none;
+    border-radius: 4px;
+}
+.MainCardNone {
+    display: none;
+}
+.hamburger-button {
+    display: none;
+}
+.MaterialsHud {
+    display: flex;
+}
+.MaterialsHudMenuText {
+    color: #333333;
+}
+.BigText {
+    max-width: 714px;
+    font-weight: 700;
+    font-size: 48px;
+    margin: 0%;
+}
+.MainSectionImg {
+    width: 714px;
+}
+.MainSection {
+    margin-left: 120px;
+}
+.MiniHeading {
+    font-weight: 700;
+    height: 16px;
+    margin: 0%;
+}
+.ThinText {
+    font-weight: 400;
+    font-size: 16px;
+}
+.Lilia {
+    font-weight: 700;
+    font-size: 20px;
+}
+.LiliaDoctor {
+    font-weight: 600;
+    font-size: 16px;    
+}
+.AsideText {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-weight: 400;
+    font-size: 14px;  
+    list-style: none;
+    font-family: "Open Sans", sans-serif;
+}
+.AsideText::before {
+    content: "•";
+    color: #03B2A5;
+    font-size: 25px;
+    font-weight: 900;
+    margin-right: 8px;
+}
+.AvtorTextHeader {
+    margin: 16px 0px 24px 0px;
+}
+.AvtorText {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0%;
+}
+.AvtorTextF {
+    font-weight: 400;
+    font-size: 14px;
+}
+.AvtorTextLilia {
+    font-weight: 400;
+    font-size: 14px; 
+    margin-top: 4px;
+    margin-bottom: 16px;
+    color: #A2A7B1;  
+}
+.AvtorText::before {
+    content: "•";
+    color: #494949;
+    font-size: 5px;
+    margin-right: 8px;
+}
+.AsideOne {
+    background-color: #E6F0FD;
+    padding: 24px 0px 24px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 282px;
+    max-height: 481px;
+    border-radius: 16px;
+    margin-top: 80px;
+    margin-bottom: 24px;
+}
+.AsideTwo {
+    border: 1px solid #DEDEDE;
+    padding: 16px 16px 36px 16px;
+    height: 481px;
+    border-radius: 16px;
+    margin-bottom: 28px;
+}
+.ContainerLilia {
+margin: auto;
+}
+.ContainerLiliaMini {
+    text-align: center;
+}
+.asideContainerImg {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.asideContainerImgTwo {
+    position: relative;
+    bottom: 20px;
+    left: 65px;
+}
+.ButtonContainerImg {
+    width: 234px;
+    height: 48px;
+    border-radius: 4px;
+    border: none;
+    background-color: #35B3A9;
+    color: #FFFFFF;
+}
+.MiniButton {
+    position: relative;
+    border-radius: 6px;
+    background-color: #F3F4F8B2;
+    border: none;
+    z-index: 1;
+}
+.AvtorTextA {
+    font-weight: 400;
+    font-size: 14px;
+    list-style: none;
+    color: #2963A3;
+    text-decoration: none;
+}
+.MiddleTextL {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-weight: 500;
+    font-size: 16px;
+}
+.MiddleText {
+    font-weight: 500;
+    font-size: 16px;    
+}
+.MiddleFlex {
+    font-weight: 500;
+    font-size: 16px;
+    color: #333333;
+}
+.MiddleFlexOne {
+    margin-left: 56px;
+}
+.MiddleFlexTwo {
+    margin: 4px 0px 4px 72px;
+}
+.MiddleFlexThree {
+    margin-left: 88px;
+    margin-bottom: 8px;
+}
+.Сontent {
+    margin-top: 24px;
+}
+.ContentStart {
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+.ContentEnd {
+    margin-top: 8px;
+    margin-bottom: 14px;
+}
+.MiddleTextL::before {
+    content: "•";
+    color: #03B2A5;
+    font-size: 25px;
+    font-weight:  900;
+    margin-right: 8px;
+}
+.Heading {
+    font-weight: 700;
+    font-size: 24px;    
+    margin: 0%;
+}
+.HeadingH {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: auto;
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
+.ContainerHeading {
+    max-height: 32px;
+    margin-bottom: 16px;
+}
+.ContainerHeadingEnd {
+    padding-top: 30px;
+}
+.HeadingText {
+    font-weight: 500;
+    font-size: 16px;
+    margin: 0%;
+}
+.ContainerSupport {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F3F7FE;
+    position: relative;
+    padding: 24px 24px 8px 24px;
+    border-radius: 16px;
+    margin-bottom: 24px;
+}
+.ContainerSupportImg {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.ContainerSupportP {
+    margin-top: 10px;
+}
+.ContainerAvtor {
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+.ContainerAnxiety {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 16px;
+}
+.ContainerAnxietyImg {
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+.ContainerAnxietyStart {
+    margin-bottom: 24px;
+}
+.Line {
+    color: #868686;
+}
+.ContainerBigMain {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 24px;
+}
+.ContainerHelp {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    max-width: 485px;
+    height: 96px;
+    margin: 48px 104px 24px 102px;
+    z-index: 1;
+}
+.ContainerHelpImg {
+    position: relative;
+    left: 200px;
+}
+.Reaction {
+    display: flex;
+    gap: 24px;
+}
+.MuscleExercise {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 24px;
+    background-color: #FEFAEC;
+    gap: 8px;
+    border-radius: 16px;
+}
+.AlarmManagement {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.Repertoire {
+    display: flex;
+    gap: 24px;
+}
+.ContainerStress {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FFF3EB;
+    padding: 24px;
+    gap: 8px;
+    border-radius: 16px;
+}
+.ContainerStabilityMini {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.ContainerStability {
+    display: flex;
+    gap: 24px;
+}
+.Separation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.TaskEnd {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 24px;
+    background-color: #03B2A51A;
+    border-radius: 16px;
+    gap: 8px;
+}
+.ContainerSelf {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0%;
+
+}
+.HrMainEnd {
+    color: #DEDEDE;
+    margin-bottom: 72px;
+}
+hr {
+   color: #9D9D9D;
+   opacity: 30%;
+}
+.hr {
+    max-width: 1200;
+    margin: auto;
+    padding-left: 120px;
+    padding-right: 120px;
+    margin-top: 50px;
+}
+.BurgerPosition {
+    display: flex;
+    width: auto;
+    height: 18px;
+    padding: 0%;
+    margin: 0%;
+    margin-bottom: 54px;
+    font-weight: 400;
+    gap: 6px;
+}
+.BurgerPositionNavigation {
+    font-size: 12px;
+    list-style: none;
+    text-decoration: none;
+}
+.aside {
+    display: block;
+    width: 282px;
+    max-height: 4800px;
+    margin-left: 228px;
+    margin-right: 120px;
+}
+.AsideTwoGap {
+    height: 48px;
+}
+.AsideTwoButton {
+    width: 100%;
+    height: 48px;
+    margin-top: 16px;
+    border-radius: 4px;
+    border: none;
+    background-color: #35B3A9;
+    color: #FFFFFF;
+}
+.PsychilogImg {
+    width: 105px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.Gift {
+    position: relative;
+}
+.MainCard {
+    margin-bottom: 42px;
+}
+.GiftOne {
+    bottom: 464px;
+    right: 1px;
+    border-bottom-left-radius: 16px;
+    z-index: 1;
+}
+.GiftTwo {
+    bottom: 608px;
+    right: -100px;
+}
+.GiftThree {
+    bottom: 608px;
+    right: -4px;
+    z-index: 2;
+    border-bottom-right-radius: 16px;
+}
+.GiftFour {
+    position: relative;
+    left: 160px;
+    top: 210px;
+}
+.AsideEndCard {
+    position: relative;
+    border: 1px solid #DEDEDE;
+    border-radius: 24px;
+    height: 304px;
+    z-index: 1;
+}
+.AsideEnd {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin: 32px;
+}
+.AsideEndButton {
+    width: 108px;
+    height: 48px;
+    border-radius: 4px;
+    background-color: #35B3A9;
+    color: #FFFFFF;
+    border: none;
+}
+.ContainerEnd {
+    display: flex;
+    max-width: 248px;
+    gap: 32px;
+    height: 240px;
+}
+.ContainerEndBox {
+    display: flex;
+    flex-wrap: wrap;
+}
+.PickupButton {
+    width: 238px;
+    background-color: #16C8BB;
+    height: 60px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+}
+.LineImg {
+    position: relative;
+    width: 1440px;
+    bottom: -3px;
+    margin: auto;
+}
+.PresentImg {
+    position: relative;
+    bottom: 48px;
+    left: 125px;
+}
+.PresentImgTwo {
+    position: relative;
+    bottom: 48px;
+    left: 45px;
+    border-bottom-right-radius: 24px;
+}
+.PeopleImg {
+    margin-left: 250px;
+    margin-bottom: 20px;
+}
+.MainEnd {
+    max-width: 1200px;
+    height: 510px;
+    margin: auto;
+}
+.ContainerEnd {
+    display: flex;
+}
+.ContainerImg {
+    position: relative;
+    left: 80px;
+}
+footer {
+    display: block;
+    max-width: auto;
+    height: 302px;
+    background-color: #2963A3;
+    margin: auto;
+}
+.FooterBox {
+    display: flex;
+    justify-content: space-betwee;
+    max-width: 1200px;
+    max-height: 184px;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding-top: 40px;
+    margin: auto;
+}
+.FooterContainer {
+    display: flex;
+}
+.FooterText {
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;  
+}
+.FooterContainerInfo {
+    max-width: ;width: 111px;
+    max-height: 184px;
+    padding: 0%;
+    margin-right: 93px;
+    align-items: start;
+}
+.FooterContainerGap {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    list-style: none;
+    text-decoration: none;    
+}
+.FooterContainerGapTop,
+.FooterContainerGapBottom {
+    list-style: none;
+    text-decoration: none;  
+}
+.FooterContainerInfoTwo {
+    max-width: ;width: 106px;
+    max-height: 184px;
+}
+.FooterLogo {
+    display: flex;
+    justify-content: start;
+    max-width: 221px;
+    max-height: 122px;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.Network {
+    display: flex;
+    justify-content: start;
+    gap: 16px;
+} 
+.Info {
+    display: flex;
+    justify-content: start;
+    width: 1200px;
+    margin: 16px 120px 17px 120px;
+    gap: 48px;
+    margin: auto;
+}
+.InfoBar {
+    font-weight: 400;
+    font-size: 14;
+    opacity: 70%;
+    color: #FFFFFF;
+    list-style: none;
+    text-decoration: none;
+}
+.ContainerEmail {
+    max-width: 486px;
+    max-height: 170px;
+    margin-right: 91px;
+}
+.ContainerEmailP {
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin: 0;
+}
+.ContainerEmailBox {
+    max-width: 356px;
+    max-height: 52px;
+}
+.EmailSearch {
+    max-width: ;width: 384px;
+    max-height: 48px;
+    display: flex;
+}
+.EmailButton {
+    max-width: 64px;
+    max-height: 48px;
+    padding: 0;
+    border: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.FooterContainerBox {
+    display: flex;
+    max-width: 310px;
+    margin-right: 91px;
+}
+.EmailEndP {
+    color: #FFFFFF;
+    opacity: 70%;
+    font-weight: 400;
+    font-size: 12px;
+}
+input {
+    width: 320px;
+    height: 48px;
+    border: none;
+    padding: 0;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    padding-left: 16px;
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .hrHeader {
+        width: 1024px;
+    }
+    .HeaderContainer {
+        margin: 0%;
+    }
+    .body {
+        width: 1024px;
+    }
+    .main {
+        width: 960px;
+        margin-right: 32px;
+    }
+    .Header {
+        width: 960px;
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+    .ButtonContact {
+        margin-left: 20px;
+        gap: 10px;
+    }
+    .ButtonContactbutton {
+        width: 230px;
+        height: 48px;
+        padding: 0%;
+    }
+    .Logo {
+        width: 51px;
+        height: 36px;
+        margin-right: 32px;
+    }
+    .MaterialsHud {
+        gap: 16px;
+        width: 627px;
+        margin-right: 20px;
+    }
+    .Panel {
+        display: flex;
+        flex-wrap: wrap;
+        width: 934px;
+    }
+    .MaterialsHudGap {
+        row-gap: 4px;
+    }
+}
+@media screen and (max-width: 1024px) { 
+    .aside {
+        width: 222px;
+        margin-left: 24px;
+        margin-right: 32px;
+    }
+    .MainSection {
+        margin-left: 24px;
+    }
+    .GiftFour {
+        display: none;
+    }
+    .ContainerImg {
+        display: none;
+    }
+    .PeopleImg {
+        display: none;
+    }
+    .LineImg {
+        display: none;
+    }
+    .HrMainEnd {
+        display: none;
+    }
+    .MainEnd {
+        display: none;
+    }
+    .ContainerSelf {
+        display: none;
+    }
+    .ContainerBigMain {
+        margin-bottom: 71px;
+    }
+    .AsideOne {
+        width: 222px;
+    }
+    .ASideFontContent{
+        width: 182px;
+        height: 206px;
+    }
+    .AsideOneImg {
+        width: 182px;
+    }
+    .AsideOne {
+        padding: 24px 0px 24px 0px;
+    }
+    .AsideTwo {
+        width: 174px;
+        padding: 24px 24px 17px 24px;;
+    }
+    .ButtonContainerImg {
+        width: 182px;
+    }
+    .MainCard {
+        width: 222px;
+        height: 292px;
+    }
+    .MainSection {
+        width: 714px;
+    }
+    .GiftOne {
+        width: 112px;
+        bottom: 441px;
+        right: 1px;
+    }
+    .GiftTwo {
+        bottom: 585px;
+        right: -50px;
+    }
+    .GiftThree {
+        bottom: 665px;
+        right: -115px;
+    }
+    .ContainerLilia {
+        width: 174px;
+    }
+    .PresentImg {
+        width: 88px;
+    }
+    .PresentImg {
+        bottom: 40px;
+        left: 100px;
+    }
+    .PresentImgTwo {
+        bottom: 115px;
+        left: 109px;
+    }
+    .AsideEnd {
+        margin: 24px;
+    }
+    .asideContainerImgTwo {
+        bottom: 20px;
+        left: 30px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    footer {
+        width: 1024px;
+        margin: 0 auto;
+    }
+    .FooterContainerInfo {
+        margin-right: 30px;
+    }
+    .FooterBox {
+        display: flex;
+        justify-content: space-between;
+        width: 1024px;
+        padding-top: 40px;
+        margin: 0%;
+    }
+    .ContainerEmail {
+        width: 450px;
+        height: 170px;
+        margin-right: 21px;
+    }
+    .hr {
+        width: 960px;
+        margin: auto;
+        padding-left: 32px;
+        padding-right: 32px;
+        margin-top: 24px;
+    }
+    .Info {
+        display: flex;
+        justify-content: start;
+        width: 900px;
+        margin: 16px auto 17px 32px;
+        gap: 48px;
+    }
+    .FooterContainerBox {
+        width: 247px;
+        margin-right: 21px;
+        margin-left: 38px;
+        margin-right: 21px;
+    }
+    .FooterContainer {
+        width: 1024px;
+    }
+    .EmailEndP {
+        width: 486px;
+    }
+    .FooterLogo {
+        margin-right: 26px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .body {
+        width: 764px;
+    }
+    .main {
+        width: 728px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .Header {
+        width: 728px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .Materials {
+        display: none;
+    }
+    .ButtonContactbutton {
+        display: none;
+    }
+    .hamburger-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        background-color: white;
+    }
+    .Logo {
+        width: 51px;
+        height: 36px;
+        margin-right: 637px;
+    }
+    .MaterialsHud {
+        display: none;
+    }
+}
+@media screen and (max-width: 768px) {
+    .main {
+        display: block;
+    }
+    .MainSection {
+        margin-left: 0px;
+    }
+    .BigText{
+        font-size: 48px;
+    }
+    .MiddleFlexNone {
+        display: none;
+    }
+    .MainSection {
+        width: 728px;
+    }
+    .MainSectionImg {
+        width: 728px;
+    }
+    .ContainerChair {
+        width: 352px;
+    }
+    .aside {
+        margin: 0%;
+        width: 728px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 59px;
+    }
+    .AsideOne {
+        width: 356px;
+        margin: 0%;
+        padding: 0%;
+        height: 481px;
+        margin-right: 16px;
+    }
+    .AsideTwo {
+        width: 322px;
+        height: 447px;
+        margin: 0%;
+        padding: 0;
+        padding: 16px;
+    }
+    .AsideTwoButton {
+        margin-bottom: 20px;
+    }
+    .ASideFontContent {
+        display: flex;
+        justify-content: center;
+        width: 310px;
+        height: 137px;
+    }
+    .ButtonContainerImg {
+        width: 310px;
+    }
+    .AsideOneImg {
+        display: flex;
+        justify-content: center;
+        width: 257px;
+        height: 206px;
+        margin-top: 22px;
+    }
+    .ContainerBottomImg {
+        display: flex;
+        flex-wrap: wrap;
+        height: 54px;
+    }
+    .ASideFont {
+        height: 54px;
+    }
+    .ASideFontBr {
+        display: inline;
+    }
+    .asideContainerImg {
+        display: flex;
+    }
+    .MainCard {
+        display: none;
+    }
+    .MainCardNone {
+        display: block;
+        height: 242px;
+        margin-right: 16px;
+        margin-top: 30px;
+    }
+    .ContainerLilia {
+        width: 250px;
+    }
+    .AsideEndCard {
+        width: 354px;
+        height: 248px;
+        margin-top: 30px;
+    }
+    .PresentImgTwo {
+        display: none;
+    }
+    .AsideEnd {
+        width: 291px;
+        height: 220px;
+        margin-bottom: 0%;
+    }
+    .ASideFont {
+        height: auto;
+    }
+    .ContainerMoney {
+        width: 290px;
+        height: 29px;
+    }
+    .GiftOne,
+    .GiftTwo,
+    .GiftThree {
+        display: none;
+    }
+    .PresentImgThree {
+        display: block;
+        position: relative;
+        bottom: 90px;
+        left: 60px;
+    }
+    .PresentImg {
+        width: 112px;
+        top: -14px;
+        left: 30px;
+    }
+    .asideContainerImgTwo {
+        bottom: 20px;
+        left: 100px;
+    }
+    .AsideTwoGap {
+        height: 16px;
+    }
+}
+@media screen and (max-width: 768px) {
+    footer {
+        width: 768px;
+        height: 454px;
+        margin: 0 auto;
+    }
+    .FooterContainerInfo {
+        margin-right: 0%;
+        gap: 16px;
+    }
+    .FooterBox {
+        display: flex;
+        justify-content: space-between;
+        width: 768px;
+        padding-top: 40px;
+        margin: 0%;
+        
+    }
+    .FooterContainerGap {
+        width: 111px;
+    }
+    .ContainerEmail {
+        width: 450px;
+        height: 170px;
+    }
+    .hrHeader {
+        display: none;
+    }
+    .hr {
+        display: inline;
+    }
+    .FooterHr {
+        margin-top: 130px;
+    }
+    .BurgerPosition {
+        margin-top: 16px;
+    }
+    .Info {
+        display: flex;
+        justify-content: start;
+        width: 728px;
+        height: auto;
+        margin: 0px auto 17px 32px;
+        gap: 48px;
+    }
+    .FooterContainerBox {
+        width: 247px;
+        margin-right: 30px;
+        margin-left: 20px;
+        gap: 30px;
+    }
+    .FooterContainer {
+        width: 768px;
+        flex-wrap: wrap;
+    }
+    .EmailEndP {
+        width: 450px;
+    }
+    .FooterLogo {
+        margin-left: 20px;
+        flex-wrap: wrap;
+    }
+
+}
+
+
+
+@media screen and (max-width: 414px) {
+    .body {
+        width: 414px;
+    }
+    .main {
+        width: 366px;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+    .Header {
+        width: 366px;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+    .hamburger-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        background-color: white;
+    }
+    .Logo {
+        width: 51px;
+        height: 36px;
+        margin-right: 278px;
+    }
+}
+@media screen and (max-width: 414px) {
+    .MainSection {
+        width: 374px;
+    }
+    .BigText{
+        font-size: 32px;
+    }
+    .MainSectionImg {
+        width: 374px;
+    }
+    .Reaction {
+        display: block;
+    }
+    .ContainerHelp {
+        position: relative;
+        display: flex;
+        margin: 0%;
+        max-width: 374px;
+        height: auto;
+    }
+    .ContainerHelpImg {
+        position: absolute;
+        left: 70px;
+        bottom: -960px;
+    }
+    .ReactionImg {
+        width: 374px;
+    }
+    .Repertoire {
+        display: block;
+    }
+    .ContainerStability {
+        display: block;
+    }
+    .ContainerChair {
+        width: 374px;
+    }
+    .aside {
+        width: 374px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .AsideOne {
+        margin: 0%;
+        width: 374px;
+    }
+    .AsideTwo {
+        margin: 0%;
+        width: 374px;
+        margin-top: 24px;
+    }
+    .MainCardNone {
+        margin-right: 0%;
+        width: 374px;
+    }
+    .AsideEndCard {
+        width: 374px;
+    }
+    .asideContainerImgTwo {
+        bottom: 20px;
+        left: 110px;
+    }
+    .BurgerPosition {
+        display: flex;
+        flex-wrap: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+}
+@media screen and (max-width: 414px) {
+    footer {
+        width: 414px;
+        height: 746px;
+        margin: 0 auto;
+    }
+    .FooterContainerInfo {
+        margin-right: 0%;
+        gap: 16px;
+    }
+    .FooterBox {
+        display: flex;
+        justify-content: space-between;
+        width: auto;
+        padding-top: 35px;
+        margin: 0%;
+        
+    }
+    .FooterContainerGap {
+        width: 111px;
+    }
+    .ContainerEmail {
+        width: 375px;
+        height: 200px;
+        margin-left: 19px;
+        margin-right: 20px;
+    }
+    .BurgerPosition {
+        margin-top: 16px;
+    }
+    .Info {
+        display: flex;
+        justify-content: start;
+        width: 189px;
+        height: auto;
+        margin-top: 20px;
+        margin-left: 19px;
+        gap: 20px;
+        flex-wrap: wrap;
+        font-size: 14px;
+    }
+    .FooterContainerBox {
+        width: 375px;
+        margin-right: 20px;
+        margin-left: 19px;
+        gap: 158px;
+    }
+    .FooterContainer {
+        width: 414px;
+        flex-wrap: wrap;
+    }
+    .EmailEndP {
+        width: 375px;
+        height: 72px;
+        margin-top: 12px;
+        margin-bottom: 31px;
+    }
+    .FooterLogo {
+        margin-left: 20px;
+        flex-wrap: wrap;
+    }
+    .hr {
+        display: block;
+        width: 374px;
+        margin-top: 368px;
+        margin-left: 19px;
+        margin-right: 20px;
+        padding: 0%;
+    }
+}
+
+
+
+@media screen and (max-width: 320px) {
+    .body {
+        width: 320px;
+    }
+    .main {
+        width: 288px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .Header {
+        width: 288px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .hamburger-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        background-color: white;
+    }
+    .Logo {
+        width: 51px;
+        height: 36px;
+        margin-right: 200px;
+    }
+}
+@media screen and (max-width: 320px) {  
+    .MainSection {
+        width: 288px;
+    } 
+    .MainSectionImg {
+        width: 288px;
+    }
+    .ReactionImg {
+        width: 288px;
+    }
+    .ContainerChair {
+        width: 288px;
+    }
+    .BigText {
+        font-size: 24px;
+    }
+    .ContainerHelpImg {
+        left: 40px;
+        bottom: -1070px;
+    }
+    .Heading {
+        font-size: 18px;
+    }
+    .BurgerPositionNavigation {
+        text-overflow: ellipsis;
+    }
+    .BurgerPosition {
+        display: flex;
+        flex-wrap: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    .aside {
+        width: 288px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .AsideEnd {
+        width: auto;
+    }
+    .AsideOne {
+        margin: 0%;
+        width: 288px;
+    }
+    .AsideTwo {
+        margin: 0%;
+        width: 288px;
+        margin-top: 24px;
+    }
+    .MainCardNone {
+        margin-right: 0%;
+        width: 288px;
+    }
+    .AsideEndCard {
+        width: 288px;
+    }
+    .PresentImg {
+    top: -87px;
+    left: 115px;
+    }
+    .PresentImgThree {
+    bottom: 163px;
+    left: 130px;
+    }
+    .AsideEnd {
+        margin: 16px;
+    }
+    .asideContainerImgTwo {
+        bottom: 20px;
+        left: 70px;
+    }
+}
+@media screen and (max-width: 320px) {
+    footer {
+        width: 320px;
+        height: 746px;
+        margin: 0 auto;
+    }
+    .FooterContainerInfo {
+        margin-right: 0%;
+        gap: 16px;
+    }
+    .FooterBox {
+        display: flex;
+        justify-content: space-between;
+        width: auto;
+        padding-top: 35px;
+        margin: 0%;
+        
+    }
+    .FooterContainerGap {
+        width: 111px;
+    }
+    .ContainerEmailBox{
+        width: 288px;
+        height: 78px;
+    }
+    .ContainerEmail {
+        width: 288px;
+        height: 200px;
+        margin-left: 19px;
+        margin-right: 20px;
+        border-radius: 4px;
+    }
+    .BurgerPosition {
+        margin-top: 16px;
+    }
+    .Info {
+        display: flex;
+        justify-content: start;
+        width: 189px;
+        height: auto;
+        margin-top: 20px;
+        margin-left: 19px;
+        gap: 20px;
+        flex-wrap: wrap;
+        font-size: 14px;
+    }
+    .FooterContainerBox {
+        width: 288px;
+        margin-right: 14px;
+        margin-left: 18px;
+        gap: 71px;
+    }
+    .FooterContainer {
+        width: 288px;
+        flex-wrap: wrap;
+    }
+    .EmailEndP {
+        width: 288px;
+        height: 72px;
+        margin-top: 12px;
+        margin-bottom: 31px;
+    }
+    .FooterLogo {
+        margin-left: 18px;
+        flex-wrap: wrap;
+    }
+    .hr {
+        display: block;
+        width: 288px;
+        margin-top: 368px;
+        margin-left: 19px;
+        margin-right: 20px;
+        padding: 0%;
+    }
+    .EmailButton {
+        display: none;
+    }
+    .EmailSearch {
+        width: 288px;
+    }
+    input {
+        border-radius: 4px;
+    }
+    br {
+        display: block;
+    }
+}

@@ -1,0 +1,1218 @@
+.body {
+    font-family: "Montserrat", sans-serif;
+    margin: auto;
+    width: auto;
+}
+.main {
+    max-width: 1200px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin: auto;
+}
+.Header {
+    width: 1200px;
+    height: 76px;
+    margin-left: 120px;
+    margin-right: 120px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.Logo {
+    width: 51px;
+    height: 36px;
+    margin-right: 51px;
+}
+li,
+a {
+    list-style: none;
+    text-decoration: none;
+}
+h2 {
+    font-weight: 700;
+    font-size: 18px;
+}
+p,
+span {
+    font-weight: 400;
+    font-size: 12px;
+}
+.hrHeader {
+    display: block;
+    margin: auto;
+}
+.hr {
+    width: 1200;
+    margin: auto;
+    padding-left: 120px;
+    padding-right: 120px;
+    margin-top: 24px;
+}
+hr {
+    color: #9D9D9D;
+    opacity: 30%;
+}
+span {
+    color: #868686;
+}
+button {
+    cursor: pointer;
+}
+input {
+    width: 320px;
+    height: 48px;
+    border: none;
+    padding: 0;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    padding-left: 16px;
+}
+br {
+    display: none;
+}
+.PWeight {
+    font-weight: 400;
+    font-size: 14px;
+}
+.MaterialsHud,
+.MaterialsHudMenu {
+    display: flex;
+}
+.MaterialsHud {
+    display: flex;
+    justify-content: space-between;
+    width: 704px;
+    height: 16px;
+    gap: 30px;
+    padding: 0%;
+}
+.MaterialsHudMenuFour,
+.MaterialsHudMenuFive {
+    font-size: 14px;
+    gap: 8px;
+}
+.MaterialsHudMenuFive {
+    font-weight: 500;
+}
+.MaterialsHudMenuFour {
+    font-weight: 400;
+}
+.MaterialsHudMenuText
+ {
+    color: #333333;
+}
+.ButtonContactbutton,
+.ButtonContact {
+    width: 230px;
+}
+.ButtonContact {
+    margin-left: 164px;
+
+}
+.ButtonContactbutton {
+    width: 230px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    background-color: #E3F5F5;
+    color: #03B2A5;
+    border-style: none;
+}
+.hamburger-button {
+    display: none;
+    width: 40px;
+    height: 40px;
+}
+.Burger {
+    width: 110px;
+    height: 18px;
+
+}
+.BurgerPosition {
+    display: flex;
+    width: 110px;
+    height: 18px;
+    padding: 0%;
+    margin: 0%;
+    font-weight: 400;
+    gap: 6px;
+}
+.BurgerPositionNavigation {
+    font-size: 12px;
+}
+.headingBlog {
+    font-size: 48px;
+    font-weight: 700;
+}
+.Panel {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 24px;
+    
+}
+.PanelFilterImg {
+    width: 20px;
+    height: 20px;
+}
+.PanelFilter:not(:hover) {
+    display: flex;
+    border: 1px solid #C1C5CD;
+    border-radius: 16px;
+    gap: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333333;
+    transition: 0.3s;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 8px 6px 8px;
+    vertical-align: middle;
+}
+.PanelFilterCard:not(:hover) {
+    display: flex;
+    border-radius: 16px;
+    gap: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333333;
+    transition: 0.3s;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+}
+.PanelFilter,
+.PanelFilterCard:hover {
+    border: 2px solid #16C8BB;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+.PanelFilterCard {
+    margin-left: 8px;
+    margin-bottom: 8px;
+    background-color: rgba( 255, 255, 255, 0.5);
+    border: none;
+    padding: 6px 8px 6px 8px;
+    line-height: 20px;
+}
+.Cards {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 24px;
+    width: auto;
+    height: auto;
+    justify-content: center;
+}
+.CardOne,
+.CardTwo {
+    grid-column: span 3;
+    border-radius: 16px;
+}
+.CardThree,
+.CardFour,
+.CardFive,
+.CardSix,
+.CardSeven,
+.CardEight {
+    grid-column: span 2;
+    border-radius: 16px;
+}
+.Container {
+    border: 1px solid #DEDEDE;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    display: block;
+}
+.ContainerBig {
+    width: auto;
+    height: auto;
+}
+.ContainerMin {
+    width: auto;
+    height: auto;
+}
+.CardImgRadius {
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+.CardOneImg {
+    background-image: url(Foto/Rectangle\ \(5\).png);
+    max-width: 100%;
+    height: 252px;
+    padding-top: 8px;
+    margin: auto;
+    background-size: 100% 100%;
+}
+.CardTwoImg {
+    background-image: url(Foto/Rectangle\ \(1\).png);
+    max-width: 100%;
+    height: 259px;
+    padding-top: 8px;
+    background-size: 100% 100%;
+}
+.CardThreeImg {
+    background-image: url(Foto/Image.png);
+    max-width: 100%;
+    height: 252px;
+    padding-top: 8px;
+}
+.CardFourImg {
+    background-image: url(Foto/Rectangle\ \(2\).png);
+    max-width: 100%;
+    height: 252px;
+    padding-top: 8px;
+}
+.CardFiveImg {
+    background-image: url(Foto/Rectangle\ \(3\).png);
+    max-width: 100%;
+    height: 252px;
+    padding-top: 8px;
+}
+.CardSixImg {
+    background-image: url(Foto/Rectangle\ \(4\).png);
+    max-width: 100%;
+    height: 252px;
+    padding-top: 8px;
+}
+.CardSevenImg {
+    background-image: url(Foto/Image\ \(1\).png);
+    max-width: 100%;
+    height: 252px;
+    padding-top: 8px;
+}
+.CardEightImg {
+    background-image: url(Foto/Image\ \(2\).png);
+    max-width: 100%;
+    height: 252px;
+    padding-top: 8px;
+}
+.ParagraphBig {
+    width: 556px;
+    height: 122px;
+    margin: 16px 16px 68px 16px;
+}
+.ParagraphMin {
+    width: 352px;
+    height: 142px;
+    margin: 16px 16px 24px 16px;
+}
+.Calendar {
+    margin-left: 16px;
+    margin-bottom: 16px;
+}
+.More {
+    display: flex;
+    justify-content: center;
+    margin-top: 56px;
+    margin-bottom: 96px;
+}
+.ButtonMore {
+    width: 182px;
+    height: 48px;
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+    background-color: #35B3A9;
+    border-radius: 4px;
+    color: #FFFFFF;
+}    
+footer {
+    display: block;
+    width: auto;
+    height: 302px;
+    background-color: #2963A3;
+    margin: auto;
+}
+.FooterBox {
+    display: flex;
+    justify-content: space-betwee;
+    width: 1200px;
+    height: 184px;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding-top: 40px;
+    margin: auto;
+}
+.FooterContainer {
+    display: flex;
+}
+.FooterText {
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.FooterContainerInfo {
+    width: 111px;
+    height: 184px;
+    padding: 0%;
+    margin-right: 93px;
+    align-items: start;
+}
+.FooterContainerGap {
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+}
+.FooterContainerInfoTwo {
+    width: 106px;
+    height: 184px;
+}
+.FooterLogo {
+    display: flex;
+    justify-content: start;
+    width: 221px;
+    height: 122px;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.Network {
+    display: flex;
+    justify-content: start;
+    gap: 16px;
+} 
+.Info {
+    display: flex;
+    justify-content: start;
+    width: 1200px;
+    margin: 16px 120px 17px 120px;
+    gap: 48px;
+    margin: auto;
+}
+.InfoBar {
+    font-weight: 400;
+    font-size: 14;
+    opacity: 70%;
+    color: #FFFFFF;
+}
+.ContainerEmail {
+    width: 486px;
+    height: 170px;
+    margin-right: 91px;
+}
+.ContainerEmailP {
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin: 0;
+}
+.ContainerEmailBox {
+    width: 356px;
+    height: 52px;
+}
+.EmailSearch {
+    width: 384px;
+    height: 48px;
+    display: flex;
+}
+.EmailButton {
+    width: 64px;
+    height: 48px;
+    padding: 0;
+    border: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.FooterContainerBox {
+    display: flex;
+    width: 310px;
+    margin-right: 91px;
+}
+.EmailEndP {
+    color: #FFFFFF;
+    opacity: 70%;
+}
+
+@media screen and (max-width: 1024px) {
+    .hrHeader {
+        width: 1024px;
+    }
+    .body {
+        width: 1024px;
+    }
+    .main {
+        width: 960px;
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+    .Header {
+        width: 960px;
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+    .ButtonContact {
+        margin-left: 20px;
+        gap: 10px;
+    }
+    .ButtonContactbutton {
+        width: 230px;
+        height: 48px;
+        padding: 0%;
+       
+    }
+    .Logo {
+        width: 51px;
+        height: 36px;
+        margin-right: 32px;
+    }
+    .MaterialsHud {
+        gap: 16px;
+        width: 627px;
+    }
+    .Panel {
+        display: flex;
+        flex-wrap: wrap;
+        width: 934px;
+    }
+    .MaterialsHudGap {
+        row-gap: 4px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .Cards {
+        width: 960px;
+    }
+    .CardOne,
+    .CardTwo {
+        width: 468px;
+        height: 499px;
+    }
+    .CardOneImg {
+        background-image: url(Foto/Rectangle\ \(5\).png);
+        width: 468px;
+        height: 260px;
+        margin: 0%;
+        background-size: 100% 100%;
+    }
+    .CardTwoImg {
+        background-image: url(Foto/Rectangle\ \(1\).svg);
+        width: 468px;
+        height: 260px;
+        margin: 0%;
+        background-size: 100% 100%;
+    }
+    .ParagraphBig {
+        width: 436px;
+        height: 148px;
+        margin-bottom: 42px;
+    }
+    .CardThreeImg {
+        background-image: url(Foto/Image.png);
+        width: 304px;
+        height: 206px;
+        padding-top: 8px;
+    }
+    .CardFourImg {
+        background-image: url(Foto/Rectangle\ \(2\).png);
+        width: 304px;
+        height: 206px;
+        padding-top: 8px;
+    }
+    .CardFiveImg {
+        background-image: url(Foto/Rectangle\ \(3\).png);
+        width: 304px;
+        height: 206px;
+        padding-top: 8px;
+    }
+    .CardSixImg {
+        background-image: url(Foto/Rectangle\ \(4\).png);
+        width: 304px;
+        height: 206px;
+        padding-top: 8px;
+    }
+    .CardSevenImg {
+        background-image: url(Foto/Image\ \(1\).png);
+        width: 304px;
+        height: 206px;
+        padding-top: 8px;
+    }
+    .CardEightImg {
+        background-image: url(Foto/Image\ \(2\).png);
+        width: 304px;
+        height: 206px;
+        padding-top: 8px;
+    }
+    .ParagraphMin {
+        width: 272px;
+        height: 188px;
+        margin-bottom: 14px;
+    }
+    .ContainerBig {
+        width: 468px;
+        height: 240px;
+    }
+    .CardImg {
+        width: 304px;
+        height: 458px;
+    }
+    .Calendar {
+        margin-bottom: 16px;
+    }
+    .More {
+        margin-top: 35px;
+        margin-bottom: 60px;
+    }
+    .Panel {
+        width: 934px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    footer {
+        width: 1024px;
+        margin: 0 auto;
+    }
+    .FooterContainerInfo {
+        margin-right: 30px;
+    }
+    .FooterBox {
+        display: flex;
+        justify-content: space-between;
+        width: 1024px;
+        padding-top: 40px;
+        margin: 0%;
+    }
+    .ContainerEmail {
+        width: 450px;
+        height: 170px;
+        margin-right: 21px;
+    }
+    .hr {
+        width: 960px;
+        margin: auto;
+        padding-left: 32px;
+        padding-right: 32px;
+        margin-top: 24px;
+    }
+    .Info {
+        display: flex;
+        justify-content: start;
+        width: 900px;
+        margin: 16px auto 17px 32px;
+        gap: 48px;
+    }
+    .FooterContainerBox {
+        width: 247px;
+        margin-right: 21px;
+        margin-left: 38px;
+        margin-right: 21px;
+    }
+    .FooterContainer {
+        width: 1024px;
+    }
+    .EmailEndP {
+        width: 486px;
+    }
+    .FooterLogo {
+        margin-right: 26px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .body {
+        width: 764px;
+        margin: 0%;
+    }
+    .main {
+        width: 728px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .Header {
+        width: 728px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .Materials {
+        display: none;
+    }
+    .ButtonContactbutton {
+        display: none;
+    }
+    .hamburger-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        background-color: white;
+    }
+    .Logo {
+        width: 51px;
+        height: 36px;
+        margin-right: 637px;
+    }
+    .MaterialsHud {
+        display: none;
+    }
+}
+@media screen and (max-width: 768px) {
+    .Panel {
+        width: 728px;
+        height: 72px;
+    }
+    .Cards {
+        width: 728px;
+    }
+    .CardOne,
+    .CardTwo {
+        grid-column: span 6;
+        border-radius: 16px;
+}
+    .CardThree,
+    .CardFour,
+    .CardFive,
+    .CardSix,
+    .CardSeven,
+    .CardEight {
+        grid-column: span 3;
+        border-radius: 16px;
+}
+    .CardOne,
+    .CardTwo {
+        width: 728px;
+        height: 599px;
+    }
+    .CardOneImg {
+        background-image: url(Foto/Rectangle\ \(5\).png);
+        width: 728px;
+        height: 404px;
+        margin: 0%;
+    }
+    .CardTwoImg {
+        background-image: url(Foto/Rectangle\ \(1\).svg);
+        width: 728px;
+        height: 404px;
+        margin: 0%;
+    }
+    .ParagraphBig {
+        width: 696px;
+        height: 102px;
+        margin-bottom: 42px;
+    }
+    .CardThreeImg {
+        background-image: url(Foto/Image.png);
+        width: 352px;
+        height: 206px;
+        padding-top: 8px;
+    }
+    .CardFourImg {
+        background-image: url(Foto/Rectangle\ \(2\).png);
+        width: 352px;
+        height: 206px;
+        padding-top: 8px;
+    }
+    .CardFiveImg {
+        background-image: url(Foto/Rectangle\ \(3\).png);
+        width: 352px;
+        height: 206px;
+        padding-top: 8px;
+    }
+    .CardSixImg {
+        background-image: url(Foto/Rectangle\ \(4\).png);
+        width: 352px;
+        height: 206px;
+        padding-top: 8px;
+    }
+    .CardSevenImg {
+        background-image: url(Foto/Image\ \(1\).png);
+        width: 352px;
+        height: 206px;
+        padding-top: 8px;
+    }
+    .CardEightImg {
+        background-image: url(Foto/Image\ \(2\).png);
+        width: 352px;
+        height: 206px;
+        padding-top: 8px;
+    }
+    .ParagraphMin {
+        width: 320px;
+        height: 174px;
+        margin-bottom: 14px;
+    }
+    .ContainerBig {
+        width: 728px;
+        height: 196px;
+    }
+    .ContainerMin {
+        width: 352px;
+    }
+    .CardImg {
+        width: 352px;
+    }
+    .Calendar {
+        margin-bottom: 16px;
+    }
+    .More {
+        margin-top: 35px;
+        margin-bottom: 60px;
+    }
+}
+@media screen and (max-width: 768px) {
+    footer {
+        width: 768px;
+        height: 454px;
+        margin: 0 auto;
+    }
+    .FooterContainerInfo {
+        margin-right: 0%;
+        gap: 16px;
+    }
+    .FooterBox {
+        display: flex;
+        justify-content: space-between;
+        width: 768px;
+        padding-top: 40px;
+        margin: 0%;
+        
+    }
+    .FooterContainerGap {
+        width: 111px;
+    }
+    .ContainerEmail {
+        width: 450px;
+        height: 170px;
+    }
+    .hrHeader {
+        display: none;
+    }
+    .hr {
+        display: none;
+    }
+    .BurgerPosition {
+        margin-top: 16px;
+    }
+    .Info {
+        display: flex;
+        justify-content: start;
+        width: 728px;
+        height: auto;
+        margin: 0px auto 17px 32px;
+        gap: 48px;
+    }
+    .FooterContainerBox {
+        width: 247px;
+        margin-right: 30px;
+        margin-left: 20px;
+        gap: 30px;
+    }
+    .FooterContainer {
+        width: 768px;
+        flex-wrap: wrap;
+    }
+    .EmailEndP {
+        width: 450px;
+    }
+    .FooterLogo {
+        margin-left: 20px;
+        flex-wrap: wrap;
+    }
+    .hr {
+        display: inline;
+    }
+    .FooterHr {
+        margin-top: 130px;
+    }
+}
+
+
+@media screen and (max-width: 414px) {
+    .body {
+        width: 414px;
+    }
+    .main {
+        width: 366px;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+    .Header {
+        width: 366px;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+    .hamburger-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        background-color: white;
+    }
+    .Logo {
+        width: 51px;
+        height: 36px;
+        margin-right: 278px;
+    }
+}
+@media screen and (max-width: 414px) {
+    .header {
+        height: 72px;
+    }
+    .headingBlog {
+        width: 374px;
+        height: 40px;
+        font-weight: 700;
+        font-size: 32px;
+        margin-bottom: 24px;
+    }
+    .Panel {
+        display: flex;
+        width: auto;
+        height: 32px;
+        overflow-x: auto;
+        scrollbar-width: none;
+    }
+    .main {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .Cards {
+        width: 374px;
+        grid-gap: 16px;
+    }
+    .CardOne,
+    .CardTwo {
+        grid-column: span 6;
+        border-radius: 16px;
+        margin-bottom: 16px;
+}
+    .CardThree,
+    .CardFour,
+    .CardFive,
+    .CardSix,
+    .CardSeven,
+    .CardEight {
+        grid-column: span 6;
+        border-radius: 16px;
+}
+    .CardOne,
+    .CardTwo {
+        width: 374px;
+        height: 462px;
+    }
+    .CardOneImg {
+        background-image: url(Foto/Rectangle\ \(5\).png);
+        width: 374px;
+        height: 206px;
+        margin: 0%;
+    }
+    .CardTwoImg {
+        background-image: url(Foto/Rectangle\ \(1\).svg);
+        width: 374px;
+        height: 206px;
+        margin: 0%;
+    }
+    .ParagraphBig {
+        width: 342px;
+        height: 194px;
+        margin-bottom: 16px;
+    }
+    .CardThreeImg {
+        background-image: url(Foto/Image.png);
+        width: 374px;
+        height: 206px;
+        padding-top: 8px;
+    }
+    .CardFourImg {
+        background-image: url(Foto/Rectangle\ \(2\).png);
+        width: 374px;
+        height: 206px;
+        padding-top: 8px;
+    }
+    .CardFive {
+        display: none;
+    }
+    .CardSix {
+        display: none;
+    }
+    .CardSeven {
+        display: none;
+    }
+    .CardEight {
+        display: none;
+    }
+    .ParagraphMin {
+        width: 342px;
+        height: 194px;
+        margin-bottom: 16px;
+    }
+    .CardImg {
+        width: 374px;
+        margin-bottom: 16px;
+    }
+    .ContainerBig,
+    .ContainerMin {
+        width: 374px;
+        height: 256px;
+    }
+    .Calendar {
+        margin-bottom: 16px;
+    }
+    .More {
+        margin-top: 28px;
+        margin-bottom: 59px;
+    }
+
+}
+@media screen and (max-width: 414px) {
+    footer {
+        width: 414px;
+        height: 746px;
+        margin: 0 auto;
+    }
+    .FooterContainerInfo {
+        margin-right: 0%;
+        gap: 16px;
+    }
+    .FooterBox {
+        display: flex;
+        justify-content: space-between;
+        width: auto;
+        padding-top: 35px;
+        margin: 0%;
+        
+    }
+    .FooterContainerGap {
+        width: 111px;
+    }
+    .ContainerEmail {
+        width: 375px;
+        height: 200px;
+        margin-left: 19px;
+        margin-right: 20px;
+    }
+    .BurgerPosition {
+        margin-top: 16px;
+    }
+    .Info {
+        display: flex;
+        justify-content: start;
+        width: 189px;
+        height: auto;
+        margin-top: 20px;
+        margin-left: 19px;
+        gap: 20px;
+        flex-wrap: wrap;
+        font-size: 14px;
+    }
+    .FooterContainerBox {
+        width: 375px;
+        margin-right: 20px;
+        margin-left: 19px;
+        gap: 158px;
+    }
+    .FooterContainer {
+        width: 414px;
+        flex-wrap: wrap;
+    }
+    .EmailEndP {
+        width: 375px;
+        height: 72px;
+        margin-top: 12px;
+        margin-bottom: 31px;
+    }
+    .FooterLogo {
+        margin-left: 20px;
+        flex-wrap: wrap;
+    }
+    .hr {
+        display: block;
+        width: 374px;
+        margin-top: 368px;
+        margin-left: 19px;
+        margin-right: 20px;
+        padding: 0%;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .body {
+        width: 320px;
+    }
+    .main {
+        width: 288px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .Header {
+        width: 288px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .hamburger-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        background-color: white;
+    }
+    .Logo {
+        width: 51px;
+        height: 36px;
+        margin-right: 200px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .header {
+        height: 56px;
+    }
+    .headingBlog {
+        font-size: 24px;
+        font-weight: 700;
+        width: 288px;
+        height: 32px;
+        margin-bottom: 24px;
+        margin-top: 24px;
+    }
+    .Panel {
+        width: 288px;
+        height: 32px;
+        
+    }
+    .main {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .Cards {
+        width: 288px;
+    }
+    .CardOne,
+    .CardTwo {
+        width: 288px;
+        height: 478px;
+    }
+    .CardOneImg {
+        background-image: url(Foto/Rectangle\ \(5\).png);
+        width: 288px;
+        height: 206px;
+        margin: 0%;
+    }
+    .CardTwoImg {
+        background-image: url(Foto/Rectangle\ \(1\).svg);
+        width: 288px;
+        height: 206px;
+        margin: 0%;
+    }
+    .ParagraphBig {
+        width: 256px;
+        height: 220px;
+        margin-bottom: 8px;
+    }
+    .CardThreeImg {
+        background-image: url(Foto/Image.png);
+        width: 288px;
+        height: 206px;
+        padding-top: 8px;
+    }
+    .CardFourImg {
+        background-image: url(Foto/Rectangle\ \(2\).png);
+        width: 288px;
+        height: 206px;
+        padding-top: 8px;
+    }
+    .ParagraphMin {
+        width: 256px;
+        height: 220px;
+        margin-bottom: 8px;
+    }
+    .CardImg {
+        width: 288px;
+        margin-bottom: 16px;
+    }
+    .ContainerBig,
+    .ContainerMin {
+        width: 288px;
+        height: 272px;
+    }
+}
+@media screen and (max-width: 320px) {
+    footer {
+        width: 320px;
+        height: 746px;
+        margin: 0 auto;
+    }
+    .FooterContainerInfo {
+        margin-right: 0%;
+        gap: 16px;
+    }
+    .FooterBox {
+        display: flex;
+        justify-content: space-between;
+        width: auto;
+        padding-top: 35px;
+        margin: 0%;
+        
+    }
+    .FooterContainerGap {
+        width: 111px;
+    }
+    .ContainerEmailBox{
+        width: 288px;
+        height: 78px;
+    }
+    .ContainerEmail {
+        width: 288px;
+        height: 200px;
+        margin-left: 19px;
+        margin-right: 20px;
+        border-radius: 4px;
+    }
+    .BurgerPosition {
+        margin-top: 16px;
+    }
+    .Info {
+        display: flex;
+        justify-content: start;
+        width: 189px;
+        height: auto;
+        margin-top: 20px;
+        margin-left: 19px;
+        gap: 20px;
+        flex-wrap: wrap;
+        font-size: 14px;
+    }
+    .FooterContainerBox {
+        width: 288px;
+        margin-right: 14px;
+        margin-left: 18px;
+        gap: 71px;
+    }
+    .FooterContainer {
+        width: 288px;
+        flex-wrap: wrap;
+    }
+    .EmailEndP {
+        width: 288px;
+        height: 72px;
+        margin-top: 12px;
+        margin-bottom: 31px;
+    }
+    .FooterLogo {
+        margin-left: 18px;
+        flex-wrap: wrap;
+    }
+    .hr {
+        display: block;
+        width: 288px;
+        margin-top: 368px;
+        margin-left: 19px;
+        margin-right: 20px;
+        padding: 0%;
+    }
+    .EmailButton {
+        display: none;
+    }
+    .EmailSearch {
+        width: 288px;
+    }
+    input {
+        border-radius: 4px;
+    }
+    br {
+        display: block;
+    }
+}
