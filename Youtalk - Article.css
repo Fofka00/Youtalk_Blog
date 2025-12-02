@@ -590,7 +590,6 @@ footer {
 }
 .FooterBox {
     display: flex;
-    justify-content: space-betwee;
     max-width: 1200px;
     max-height: 184px;
     margin-left: 120px;
@@ -652,7 +651,6 @@ footer {
 }
 .InfoBar {
     font-weight: 400;
-    font-size: 14;
     opacity: 70%;
     color: #FFFFFF;
     list-style: none;
