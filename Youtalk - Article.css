@@ -6,7 +6,6 @@
 }
 .main {
     display: flex;
-    justify-content: ;
     max-width: 1440px;
     margin: auto;
 }
@@ -609,7 +608,7 @@ footer {
     text-decoration: none;  
 }
 .FooterContainerInfo {
-    max-width: ;width: 111px;
+    max-width: 111px;
     max-height: 184px;
     padding: 0%;
     margin-right: 93px;
@@ -627,7 +626,7 @@ footer {
     text-decoration: none;  
 }
 .FooterContainerInfoTwo {
-    max-width: ;width: 106px;
+    max-width: 106px;
     max-height: 184px;
 }
 .FooterLogo {
@@ -675,7 +674,7 @@ footer {
     max-height: 52px;
 }
 .EmailSearch {
-    max-width: ;width: 384px;
+    max-width: 384px;
     max-height: 48px;
     display: flex;
 }
