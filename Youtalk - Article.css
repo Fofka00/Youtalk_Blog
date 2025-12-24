@@ -25,7 +25,9 @@ h2 {
     margin: auto;
 }
 .MaterialsHud,
-.MaterialsHudMenu {
+.MaterialsHudMenu,
+.ContainerEnd,
+.FooterContainer {
     display: flex;
 }
 .ASideFontContent {
@@ -43,10 +45,10 @@ h2 {
 .ASideFontBr {
     display: none;
 }
-.PresentImgThree {
-    display: none;
-}
-.PresentImgFour {
+.PresentImgThree,
+.PresentImgFour,
+.MainCardNone,
+.hamburger-button {
     display: none;
 }
 .ASideFont {
@@ -102,15 +104,6 @@ button {
     color: #03B2A5;
     border: none;
     border-radius: 4px;
-}
-.MainCardNone {
-    display: none;
-}
-.hamburger-button {
-    display: none;
-}
-.MaterialsHud {
-    display: flex;
 }
 .MaterialsHudMenuText {
     color: #333333;
@@ -386,7 +379,8 @@ margin: auto;
     flex-wrap: wrap;
     gap: 16px;
 }
-.Repertoire {
+.Repertoire,
+.ContainerStability {
     display: flex;
     gap: 24px;
 }
@@ -401,10 +395,6 @@ margin: auto;
 .ContainerStabilityMini {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
-}
-.ContainerStability {
-    display: flex;
     gap: 24px;
 }
 .Separation {
@@ -574,9 +564,7 @@ hr {
     height: 510px;
     margin: auto;
 }
-.ContainerEnd {
-    display: flex;
-}
+
 .ContainerImg {
     position: relative;
     left: 80px;
@@ -596,9 +584,6 @@ footer {
     margin-right: 120px;
     padding-top: 40px;
     margin: auto;
-}
-.FooterContainer {
-    display: flex;
 }
 .FooterText {
     font-weight: 700;
@@ -764,24 +749,12 @@ input {
     .MainSection {
         margin-left: 24px;
     }
-    .GiftFour {
-        display: none;
-    }
-    .ContainerImg {
-        display: none;
-    }
-    .PeopleImg {
-        display: none;
-    }
-    .LineImg {
-        display: none;
-    }
-    .HrMainEnd {
-        display: none;
-    }
-    .MainEnd {
-        display: none;
-    }
+    .GiftFour,
+    .ContainerImg,
+    .PeopleImg,
+    .LineImg,
+    .HrMainEnd,
+    .MainEnd,
     .ContainerSelf {
         display: none;
     }
@@ -921,7 +894,8 @@ input {
     .Materials {
         display: none;
     }
-    .ButtonContactbutton {
+    .ButtonContactbutton,
+    .MaterialsHud {
         display: none;
     }
     .hamburger-button {
@@ -936,9 +910,6 @@ input {
         height: 36px;
         margin-right: 637px;
     }
-    .MaterialsHud {
-        display: none;
-    }
 }
 @media screen and (max-width: 768px) {
     .main {
@@ -950,7 +921,12 @@ input {
     .BigText{
         font-size: 48px;
     }
-    .MiddleFlexNone {
+    .MiddleFlexNone,
+    .MainCard,
+    .PresentImgTwo,
+    .GiftOne,
+    .GiftTwo,
+    .GiftThree {
         display: none;
     }
     .MainSection {
@@ -1016,9 +992,6 @@ input {
     .asideContainerImg {
         display: flex;
     }
-    .MainCard {
-        display: none;
-    }
     .MainCardNone {
         display: block;
         height: 242px;
@@ -1033,9 +1006,6 @@ input {
         height: 248px;
         margin-top: 30px;
     }
-    .PresentImgTwo {
-        display: none;
-    }
     .AsideEnd {
         width: 291px;
         height: 220px;
@@ -1047,11 +1017,6 @@ input {
     .ContainerMoney {
         width: 290px;
         height: 29px;
-    }
-    .GiftOne,
-    .GiftTwo,
-    .GiftThree {
-        display: none;
     }
     .PresentImgThree {
         display: block;
@@ -1167,14 +1132,14 @@ input {
     }
 }
 @media screen and (max-width: 414px) {
-    .MainSection {
+    .MainSection,
+    .MainSectionImg,
+    .ReactionImg,
+    .ContainerChair {
         width: 374px;
     }
     .BigText{
         font-size: 32px;
-    }
-    .MainSectionImg {
-        width: 374px;
     }
     .Reaction {
         display: block;
@@ -1191,17 +1156,9 @@ input {
         left: 70px;
         bottom: -960px;
     }
-    .ReactionImg {
-        width: 374px;
-    }
-    .Repertoire {
-        display: block;
-    }
+    .Repertoire,
     .ContainerStability {
         display: block;
-    }
-    .ContainerChair {
-        width: 374px;
     }
     .aside {
         width: 374px;
@@ -1337,18 +1294,13 @@ input {
     }
 }
 @media screen and (max-width: 320px) {  
-    .MainSection {
+    .MainSection,
+    .MainSectionImg,
+    .ReactionImg,
+    .ContainerChair,
+    .AsideEndCard {
         width: 288px;
     } 
-    .MainSectionImg {
-        width: 288px;
-    }
-    .ReactionImg {
-        width: 288px;
-    }
-    .ContainerChair {
-        width: 288px;
-    }
     .BigText {
         font-size: 24px;
     }
@@ -1388,9 +1340,6 @@ input {
     }
     .MainCardNone {
         margin-right: 0%;
-        width: 288px;
-    }
-    .AsideEndCard {
         width: 288px;
     }
     .PresentImg {
