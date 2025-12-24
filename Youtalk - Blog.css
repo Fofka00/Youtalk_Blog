@@ -627,7 +627,8 @@ footer {
         margin-left: 20px;
         margin-right: 20px;
     }
-    .Materials {
+    .Materials,
+    .MaterialsHud{
         display: none;
     }
     .ButtonContactbutton {
@@ -644,9 +645,6 @@ footer {
         width: 51px;
         height: 36px;
         margin-right: 637px;
-    }
-    .MaterialsHud {
-        display: none;
     }
 }
 @media screen and (max-width: 768px) {
@@ -777,9 +775,7 @@ footer {
         width: 450px;
         height: 170px;
     }
-    .hrHeader {
-        display: none;
-    }
+    .hrHeader,
     .hr {
         display: none;
     }
@@ -922,15 +918,9 @@ footer {
         height: 206px;
         padding-top: 8px;
     }
-    .CardFive {
-        display: none;
-    }
-    .CardSix {
-        display: none;
-    }
-    .CardSeven {
-        display: none;
-    }
+    .CardFive,
+    .CardSix,
+    .CardSeven,
     .CardEight {
         display: none;
     }
